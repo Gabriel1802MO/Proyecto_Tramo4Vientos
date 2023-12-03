@@ -1,0 +1,60 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+  }
+
+  .agents-grid {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+  }
+
+  .card-box-d {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+  }
+
+  .card-box-d:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  }
+
+  .card-img-d {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+  }
+
+  form {
+    padding: 20px;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  input,
+  select,
+  textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
